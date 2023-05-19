@@ -13,4 +13,26 @@ const quotes = [
     'We cannot solve our problems with the same thinking we used when we created them.'
   ];
 
-// Write your Javascriot code here
+  
+  
+  function getRandomQuote() {
+    const randomIndex = Math.floor(Math.random() * quotes.length);
+    return quotes[randomIndex];
+  }
+
+  function displayRandomQuote() {
+    const quoteInput = document.getElementById('quote-input');
+    quoteInput.value = getRandomQuote();
+  }
+
+  const randomQuoteBtn = document.getElementById('random-quote-btn');
+  randomQuoteBtn.addEventListener('click', displayRandomQuote);
+
+  window.addEventListener('load', displayRandomQuote);
+  
+  
+  
+  
+  
+  
+  
