@@ -1,1 +1,26 @@
-/* Add your styles here */
+.quote-input {
+    border-radius: 5px;
+    padding: 10px;
+    width: 50%;
+    
+  }
+
+  .random-quote-btn {
+    background-color: gray;
+    margin-top: 20px;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+
+  .random-quote-btn:hover {
+    background-color: darkgray;
+  }
+
+  .random-quote-btn-icon {
+    margin-right: 5px;
+  }
